@@ -9,3 +9,7 @@ def main():
     account = get_account()
     our_token = OurToken.deploy(initial_supply, {"from": account})
     print(our_token.name)
+
+
+def a():
+    pass
